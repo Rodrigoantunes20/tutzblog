@@ -5,6 +5,7 @@
 }
 
 body {
+	text-align: center;
 	font-size: 1em;
 	font-family: Helvetica, sans-serif;
 	background: #fff;
@@ -13,9 +14,10 @@ body {
 ****** Layout *****
 */
 #area-cabecalho {
-	background-color: #f7b600;
-	padding: 15px;
+	background-color: #007fff;
 	text-align: center;
+	position: fixed;
+	width: 100%;
 }
 #area-logo, #area-menu {
 	padding: 10px;
@@ -30,23 +32,28 @@ body {
  #area-de-postagens {
 	width: 660px;
 	float: left;
+	padding: 15px;
 }
 
 #area-lateral {
 	width: 240px;
-	float: right;
+	float: left;
+	padding-top: 7px;
+	
 }
 
 .postagem {
 	padding: 20px;
 	margin-bottom: 20px;
 	background: white;
+	margin-top: 75px;
 }
 
 .conteudo-lateral {
 	background: white;
 	padding: 10px;
-	margin-bottom: 20px;
+	margin-top: 75px;
+
 }
 
 .postagem-lateral {
@@ -59,7 +66,7 @@ body {
 	clear: both;
 	text-align: center;
 	padding: 15px;
-	background: #ccc;
+	background: #007fff;
 }
 
 
@@ -72,7 +79,7 @@ a {
 	text-decoration: none;
 }
 a:link, a:visited {
-	color: #f7b600;
+	color: #007fff;
 }
 
 a:hover {
@@ -85,9 +92,10 @@ a:hover {
 }
 
 #area-cabecalho a:hover {
-	color: #f7b600;
-	background: #fff;
+	color: #000;
+	background: #FFF;
 	text-decoration: none;
+	border-radius: 10px;
 }
 
 /*
@@ -100,7 +108,7 @@ h1 {
 }
 
 h2 {
-	color: #f7b600;
+	color: #007fff;
 }
 
 h3 {
@@ -119,5 +127,6 @@ h3 {
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 	display: block;
-}
+} 
+
 
